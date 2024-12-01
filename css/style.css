@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.email-form{
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin: 0 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.email-form > *{
+    display: block;
+    margin: 10px 0;
+}
+
+.email-form__text{
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.email-form__textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    resize: none;
+}
+
+.email-form__top-msg{
+    text-align: center;
+}
+
+.email-form__top-msg--err{
+    color: red;
+}
+
+.email-form__top-msg--success{
+    color: green;
+}
+
+.email-form__err-msg{
+    color: red;
+}
+
+.email-form__submit{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* set consistent form styling across browsers */
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
